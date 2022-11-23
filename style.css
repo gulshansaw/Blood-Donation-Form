@@ -1,0 +1,65 @@
+* {
+    margin: 0
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background: url("background.jpg");
+  }
+  
+  .container h1 {
+    color: black;
+    font-family: sans-serif;
+    margin: 20px;
+    padding-bottom: 20px;
+  }
+  
+  .registartion-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-family: sans-serif;
+    background-color: rgb(34, 148, 105);
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .registartion-form input,
+  .registartion-form select,
+  .registartion-form textarea {
+    margin-top: 20px;
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    outline: 0;
+    padding:7px;
+    background-color: #fff;
+    box-shadow: inset 1px 1px 5px rgba(0,0,0,0.3);
+  }
+  
+  .registartion-form input:focus,
+  .registartion-form textarea:focus {
+    box-shadow: 3px 3px 10px rgb(228, 228, 228), -3px -3px 10px rgb(224, 224, 224);
+  }
+  
+  .registartion-form .submit {
+    width: 100%;
+    padding: 8px 0;
+    font-size: 20px;
+    color: rgb(44, 44, 44);
+    background-color: #ffffff;
+    border-radius: 5px;
+  }
+  
+  .registartion-form .submit:hover {
+    box-shadow: 3px 3px 6px rgb(255, 214, 176);
+  }
+
+ 

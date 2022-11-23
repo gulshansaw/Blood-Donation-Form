@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+</head>
+
+<body>
+
+  <div class="container">
+    <h1>User Record List</h1>
+    <form name="registration" class="registartion-form" onsubmit="return formValidation()">
+      <table>
+        <tr>
+          <td><label for="name">Username:</label></td>
+          <td><input type="text" name="name" id="name" placeholder="your name"></td>
+        </tr>
+        <tr>
+          <td><label for="email">Email:</label></td>
+          <td><input type="text" name="email" id="email" placeholder="your email"></td>
+        </tr>
+        <tr>
+          <td><label for="password">Password:</label></td>
+          <td><input type="password" name="password" id="password"></td>
+        </tr>
+        <tr>
+          <td><label for="phoneNumber">Phone Number:</label></td>
+          <td><input type="tel" name="phoneNumber" id="phoneNumber"></td>
+        </tr>
+
+        <tr>
+          <td><label for="Blood Group">Blood Group</label></td>
+          <td>
+            <select name="Group" id="Group">
+              <option value="">Blood Group</option>
+              <option value="A+">A+</option>
+              <option value="A-">A-</option>
+              <option value="B+">B+</option>
+              <option value="B-">B-</option>
+              <option value="O+">O+</option>
+              <option value="O-">O-</option>
+              <option value="AB+">AB+</option>
+              <option value="AB-">AB-</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td><label for="Address">Address :</label></td>
+          <td><textarea name="about" id="about" placeholder="Write Your Address..."></textarea></td>
+        </tr>
+        <tr>
+          <td><label for="about">Any Other Details Regarding Your Medical Health:</label></td>
+          <td><textarea name="about" id="about" placeholder="Details Regarding Your Medical Health..."></textarea></td>
+        </tr>
+        <tr>
+          <td colspan="2"><input type="submit" class="submit" value="Submit" /></td>
+        </tr>
+      </table>
+    </form>
+  </div>
+</body>
+
+</html>
